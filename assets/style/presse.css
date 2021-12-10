@@ -1,0 +1,15 @@
+.caroussel_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caroussel_img {
+    max-width: 100%;
+  }
+
+  .caroussel_img_hidden{
+    position: fixed;
+    z-index: -100;
+    opacity: 0;
+  }

@@ -1,0 +1,13 @@
+.partenaire_container {
+    display: flex;
+}
+.partenaire_logo{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .partenaire_container {
+        display: flex;
+        flex-direction: column;
+    }
+  }
