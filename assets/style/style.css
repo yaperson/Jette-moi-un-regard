@@ -1,7 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
   /*********MENU*********/
   .mh {
     width: 35px;
@@ -78,6 +87,7 @@ body {
     background-color: rgb(24, 24, 24);
     color: white;
     padding-bottom: 20px;
+    bottom: 0;
   }
   footer a{
     text-decoration: none;
@@ -85,7 +95,7 @@ body {
   }
   footer span{
     margin-top: 10px;
-    font-size: 16px;
+    /* font-size: 20px; */
     
   }
   .foo {
@@ -109,7 +119,7 @@ body {
     color: rgb(248, 248, 248);
   }
   .mentions{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     margin: 10px;
   }
 
@@ -188,282 +198,3 @@ body {
     flex-direction: column;
   }
 }
-    /*********Faire un don*********/
-    .shiny {
-      display: inline-block;
-      color: rgb(226, 226, 226);
-      position: relative;
-      transition: 0.5s;
-      font-size: 18px;
-    }
-    .shiny:hover {
-      display: inline-block;
-      color: rgb(0, 0, 0);
-      position: relative;
-      font-size: 18px;
-    }
-    .shiny:before {
-      top: 55%;
-      left: 0px;
-      position: absolute;
-      display: block;
-      content: "";
-      height: 60%;
-      width: 100%;
-      background: linear-gradient(top, rgba(26, 26, 34, 0.8), rgba(26, 26, 34, 0));
-    }
-    
-    .shiny1 {
-      -webkit-animation: shiny_string 3s linear infinite;
-              animation: shiny_string 3s linear infinite;
-    }
-    
-    .shiny2 span:nth-child(1) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0s;
-              animation-delay: 0s;
-    }
-    
-    .shiny2 span:nth-child(2) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.07s;
-              animation-delay: 0.07s;
-    }
-    
-    .shiny2 span:nth-child(3) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.14s;
-              animation-delay: 0.14s;
-    }
-    
-    .shiny2 span:nth-child(4) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.21s;
-              animation-delay: 0.21s;
-    }
-    
-    .shiny2 span:nth-child(5) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.28s;
-              animation-delay: 0.28s;
-    }
-    
-    .shiny2 span:nth-child(6) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.35s;
-              animation-delay: 0.35s;
-    }
-    
-    .shiny2 span:nth-child(7) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.42s;
-              animation-delay: 0.42s;
-    }
-    
-    .shiny2 span:nth-child(8) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.49s;
-              animation-delay: 0.49s;
-    }
-    
-    .shiny2 span:nth-child(9) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.56s;
-              animation-delay: 0.56s;
-    }
-    
-    .shiny2 span:nth-child(10) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.63s;
-              animation-delay: 0.63s;
-    }
-    
-    .shiny2 span:nth-child(11) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.7s;
-              animation-delay: 0.7s;
-    }
-    
-    .shiny2 span:nth-child(12) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.77s;
-              animation-delay: 0.77s;
-    }
-    
-    .shiny2 span:nth-child(13) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.84s;
-              animation-delay: 0.84s;
-    }
-    
-    .shiny2 span:nth-child(14) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.91s;
-              animation-delay: 0.91s;
-    }
-    
-    .shiny2 span:nth-child(15) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 0.98s;
-              animation-delay: 0.98s;
-    }
-    
-    .shiny2 span:nth-child(16) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.05s;
-              animation-delay: 1.05s;
-    }
-    
-    .shiny2 span:nth-child(17) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.12s;
-              animation-delay: 1.12s;
-    }
-    
-    .shiny2 span:nth-child(18) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.19s;
-              animation-delay: 1.19s;
-    }
-    
-    .shiny2 span:nth-child(19) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.26s;
-              animation-delay: 1.26s;
-    }
-    
-    .shiny2 span:nth-child(20) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.33s;
-              animation-delay: 1.33s;
-    }
-    
-    .shiny2 span:nth-child(21) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.4s;
-              animation-delay: 1.4s;
-    }
-    
-    .shiny2 span:nth-child(22) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.47s;
-              animation-delay: 1.47s;
-    }
-    
-    .shiny2 span:nth-child(23) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.54s;
-              animation-delay: 1.54s;
-    }
-    
-    .shiny2 span:nth-child(24) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.61s;
-              animation-delay: 1.61s;
-    }
-    
-    .shiny2 span:nth-child(25) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.68s;
-              animation-delay: 1.68s;
-    }
-    
-    .shiny2 span:nth-child(26) {
-      -webkit-animation: shiny_span 3s linear infinite;
-              animation: shiny_span 3s linear infinite;
-      -webkit-animation-delay: 1.75s;
-              animation-delay: 1.75s;
-    }
-    
-    @-webkit-keyframes shiny_string {
-      0% {
-        text-shadow: none;
-      }
-      50% {
-        text-shadow: 0 0 15px white;
-      }
-      100% {
-        text-shadow: none;
-      }
-    }
-    
-    @keyframes shiny_string {
-      0% {
-        text-shadow: none;
-      }
-      50% {
-        text-shadow: 0 0 15px white;
-      }
-      100% {
-        text-shadow: none;
-      }
-    }
-    @-webkit-keyframes shiny_span {
-      0% {
-        text-shadow: none;
-      }
-      10% {
-        text-shadow: 0 0 15px white;
-      }
-      20% {
-        text-shadow: none;
-      }
-    }
-    @keyframes shiny_span {
-      0% {
-        text-shadow: none;
-      }
-      10% {
-        text-shadow: 0 0 15px white;
-      }
-      20% {
-        text-shadow: none;
-      }
-    }
-    @-webkit-keyframes shiny_span2 {
-      0% {
-        opacity: 0.8;
-      }
-      10% {
-        opacity: 1;
-      }
-      20% {
-        opacity: 0.8;
-      }
-    }
-    @keyframes shiny_span2 {
-      0% {
-        opacity: 0.8;
-      }
-      10% {
-        opacity: 1;
-      }
-      20% {
-        opacity: 0.8;
-      }
-    }
